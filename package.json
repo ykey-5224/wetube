@@ -2,14 +2,15 @@
   "name": "wetube",
   "version": "1.0.0",
   "description": "Cloning youtube with vanilla js",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node index.js"
   },
   "author": "yk",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "git": "^0.1.5"
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "express": "^4.17.1"
   }
 }
